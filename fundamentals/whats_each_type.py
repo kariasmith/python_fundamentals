@@ -35,3 +35,23 @@ x = 0
 while(x < 5): #look it's a while loop
     print(x) #0, 1, 2, 3, 4
     x += 1
+
+pizza_toppings.pop() #pop is removing an value from a list, if no number is listed an error thrown or the whole thing *dramatic music*
+pizza_toppings.pop(1) #removing the value that is in 1 spot Sausage
+
+print(person) #print statement of the whole dictionary
+person.pop('eye_color') #don't remove his eye balls nooooo!!
+print(person) # printing out the dictionary again to the eye balls have been removed LOL
+
+for topping in pizza_toppings: #floor loop of the list
+    if topping == 'Pepperoni': #p_t[0] will meet this if statement
+        continue #continue statement
+    print('After 1st if statement') 
+    if topping == 'Olives': #if statement checking for when the topping matches Olives
+        break #then it will break out of the for loop
+
+def print_hello_ten_times(): #gasp clasping the pearl necklace a definition of a function!
+    for num in range(10): #for loop will run when function called, ring ring yellow?
+        print('Hello')
+
+print_hello_ten_times() #you called me right away! GASP
