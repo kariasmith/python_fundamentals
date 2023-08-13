@@ -55,3 +55,21 @@ def print_hello_ten_times(): #gasp clasping the pearl necklace a definition of a
         print('Hello')
 
 print_hello_ten_times() #you called me right away! GASP
+
+def print_hello_x_times(x): #how dare you define another function right after calling me and demand a parameter
+    for num in range(x): #your simple for loop using the parameter
+        print('Hello')
+
+print_hello_x_times(4) #invoking the 4th amendment.....hmmm wrong number but use it anyways
+
+def print_hello_x_or_ten_times(x = 10): #defining all those Hellos but no Sunshines to go with it...
+    for num in range(x):
+        print('Hello')
+
+print_hello_x_or_ten_times() #invoking the function *queue dramatic music* it used the 10 parameter
+print_hello_x_or_ten_times(4) #invoking the function and using 4 as the parameter
+
+#Super curious if anyone ever actually reads these....  sticking my tongue out at you!
+"""
+Bonus section
+"""
