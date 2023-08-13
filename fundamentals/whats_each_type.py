@@ -17,3 +17,21 @@ if num1 > 45: #conditional if
     print("It's greater")
 else:   # else
     print("It's lower")
+
+if len(string) < 5: #a new if statement! gasp checking the length of my string, be modest!
+    print("It's a short word!")
+elif len(string) > 15:  #elif is else if checking the length how dare you
+    print("It's a long word!")
+else:   # it's the final else down *guitar plays*
+    print("Just right!")
+# hey I'm trying to stay awake here!
+for x in range(5): #ooo a foor loop, range? hmm something else to look up
+    print(x)
+for x in range(2,5):
+    print(x)
+for x in range(2,10,3):
+    print(x)
+x = 0
+while(x < 5): #look it's a while loop
+    print(x) #0, 1, 2, 3, 4
+    x += 1
