@@ -1,1 +1,6 @@
-aaaaahhhh yeah
+Would it surprise you to know that you have been taking advantage of OOP already? For example, you know that you can call the append method if you're working with a list, but not with a dictionary or a number. You know that you can get the length of a list or dictionary, but not of a boolean. That is because each type of thing, or object, has specific properties and functionality associated with it.
+This grouping, or encapsulating, of properties and functionalities by object is a fundamental principle of OOP and is implemented with classes.
+Whenever we declare a variable, we are creating an instance of a class. For example, by declaring x = [1,2,3], x is an instance of a list. An instance is simply an object that follows the pattern defined by its class.
+
+"We need to start thinking about classes as blueprints for our custom objects. They aren't the actual objects, but a plan for what properties and functionalities they may have.  We can now create custom objects to suit the need of our web applications!"
+Let's consider an example of a custom class we'll need in the context of a banking application.  As almost all applications revolve around users, they should define a User class.  The information we need about a user would be different than what we would need if we were building a social media application. Instead of allowing a user to define their own properties, we set a standard for what a user should have on our website.  This ensures consistent creation of User instances.
