@@ -26,9 +26,6 @@ Couple different ways to describe the brackets we see in code but I generally th
 
 item[“shape”] = “circle”
 
-Just in case anyone does want to see the screen a little larger (or smaller) on your end, you can always go to the top of the Zoom screen (Almin’s screen share) and you select “View Options” and then change the zoom percentage.
-
-
 
 When we are looping, i or whatever variable we choose to call it is known as the “iterator” - which is why it commonly is written as i
 
